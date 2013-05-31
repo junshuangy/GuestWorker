@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp spec="1.0+" codebase="file:///c:/GuestWorker/Jason/Publishes/ChemViewer" href="ChemViewer.jnlp">
+
+<information>
+  <title>ChemViewer</title>
+  <vendor>ChemViewer</vendor>
+  <description>JChemPaint Sample Project</description>
+</information>
+
+<security>
+<all-permissions/>
+</security>
+
+<resources>
+  <j2se version="1.4+" />
+  <jar href="ChemViewer.jar"/>
+  <jar href="../../Libs/jchempaint-2.2.1-jason.jar"/> 
+  <jar href="../../Libs/mysql-connector-java-5.1.24-bin.jar"/>
+</resources>
+<application-desc main-class="org.fda.view.ChemViewer">
+</jnlp>
