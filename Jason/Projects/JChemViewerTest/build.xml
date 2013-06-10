@@ -56,7 +56,7 @@
     </target>
 	
 	<target name="create_run_jar" depends="build-project">
-	        <jar destfile="C:/GuestWorker/Jason/Publishes/ChemViewer/ChemViewer.jar">
+	        <jar destfile="../../Publishes/ChemViewer/ChemViewer.jar">
 	            <manifest>
 	                <attribute name="Main-Class" value="org.fda.view.ChemViewer"/>
 	                <attribute name="Class-Path" value=". ./bin ./src  ../../Libs/jchempaint-2.2.1-jason.jar ../../Libs/mysql-connector-java-5.1.24-bin.jar"/>
