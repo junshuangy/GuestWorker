@@ -1,3 +1,9 @@
+My steps to sign jars
+1. 
+keytool -genkey -keystore myKeystore -alias TestKey (123456, 1...)
+2.
+jarsigner -keystore myKeystore ChemViewer.jar TestKey
+
 Directorys instruction
 
 C:/GuestWorker/Jason
@@ -12,18 +18,6 @@ Libs
 Publishes
   This directory contains all publishes correspond to projects.
 
-My steps to sign jar files
-
-1. 
-keytool -genkey -keystore myKeystore -alias TestKey (123456, 1...)
-
-2.
-jarsigner -keystore myKeystore ../../Libs/jchempaint-2.2.1-jason.jar TestKey
-
-3.
-jarsigner -keystore myKeystore ../../Libs/mysql-connector-java-5.1.24-bin.jar TestKey
-
-4.
-jarsigner -keystore myKeystore ChemViewer.jar TestKey
-
-
+06/09/2013
+Add a new project (NewChemViewer), using jchempaint-3.3-1210.jar and add ojdbc.jar
+Using arguments in jnlp

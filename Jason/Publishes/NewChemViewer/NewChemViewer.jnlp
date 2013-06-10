@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp spec="1.0+" codebase="file:///c:/GuestWorker/Jason/Publishes/NewChemViewer" href="NewChemViewer.jnlp">
+
+<information>
+  <title>NewChemViewer</title>
+  <vendor>NewChemViewer</vendor>
+  <description>JChemPaint Sample Project Using JChempaint3+</description>
+</information>
+
+<security>
+  <all-permissions/>
+</security>
+
+<resources>
+  <j2se version="1.4+" />
+  <jar href="NewChemViewer.jar"/>
+  <jar href="../../Libs/jchempaint-3.3-1210.jar"/> 
+  <jar href="../../Libs/mysql-connector-java-5.1.24-bin.jar"/>
+  <jar href="../../Libs/ojdbc6.jar"/>
+</resources>
+
+<application-desc main-class="org.fda.view.ChemViewer">
+  <argument>com.mysql.jdbc.Driver</argument>
+  <argument>jdbc:mysql://localhost:3306/test</argument>
+  <argument>root</argument>
+  <argument>123456</argument>
+  <argument>tb_compound</argument>
+</application-desc>
+
+</jnlp>
