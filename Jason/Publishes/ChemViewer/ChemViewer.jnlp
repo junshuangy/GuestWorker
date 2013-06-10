@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<jnlp spec="1.0+" codebase="file:///c:/GuestWorker/Jason/Publishes/ChemViewer" href="ChemViewer.jnlp">
+<jnlp spec="1.0+" codebase="file:../ChemViewer" href="ChemViewer.jnlp">
 
 <information>
   <title>ChemViewer</title>
