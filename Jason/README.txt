@@ -18,6 +18,9 @@ Libs
 Publishes
   This directory contains all publishes correspond to projects.
 
+DB
+  This directory contains all database related files.
+
 06/09/2013
 Add a new project (NewChemViewer), using jchempaint-3.3-1210.jar and add ojdbc.jar
 Using arguments in jnlp
